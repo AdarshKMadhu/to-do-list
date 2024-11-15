@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <section id="main">
+        <h1>To-do-List</h1>
+        <div id="input-container">
+            <label for="textBox"></label>
+            <input type="text" id="textBox" name = "textBox" aria-label="Enter a new task" placeholder="Enter a new task">
+            <button id="add" onclick="toAdd()">Add</button>
+        </div>
+        <ol id="items" type="I">
+            <!-- Dynamically generated list items will be inserted here -->
+        </ol>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
